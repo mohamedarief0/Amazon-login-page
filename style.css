@@ -132,14 +132,14 @@
     }
 }  */
 
-@media (max-width:368px) {
+@media (max-width:468px) {
     .red-ribben{
         width: 300px;
     }    
     .amazon-img{
         top: 30%;
         /* margin-top: -200px;     */
-        left: 40%;
+        left: 33%;
     }
     .card{
         display: flex;
@@ -161,7 +161,7 @@
     }
 }
 
-@media (min-width:368px)and(max-width:960px) {
+@media (min-width:468px)and(max-width:960px) {
     .dot{
         display: none;
 
@@ -177,6 +177,9 @@
     }
     .amazon-img{
         top: 200px;
-        left: 360px;
+        left: calc( 100pc - 18pc );
+    }
+    .container{
+        margin:auto;
     }
 }
